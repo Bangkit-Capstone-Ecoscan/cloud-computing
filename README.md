@@ -146,12 +146,12 @@ This endpoint is used to retrieve specific articles stored in the database. The 
 
 ### Option 1: Using IP Address
 
-- **URL:** `http://34.138.0.114:8080/upload`
+- **URL:** `http://34.138.0.114:8080/scan-result/upload`
 - **Method:** POST
 
 ### Option 2: Using Custom Domain
 
-- **URL:** `https://ecoscan-api.vercel.app/upload`
+- **URL:** `https://ecoscan-api.vercel.app/scan-result/upload`
 - **Method:** POST
 
 This endpoint is used to send food images to the Google Cloud Storage. The request should include an image file with the specified conditions below. Upon successful execution, the response will include the image url.
@@ -176,12 +176,12 @@ This endpoint is used to send food images to the Google Cloud Storage. The reque
 
 ### Option 1: Using IP Address
 
-- **URL:** `http://34.138.0.114:8080/scan-result/predict`
+- **URL:** `http://34.138.0.114:8080/predict`
 - **Method:** PATCH
 
 ### Option 2: Using Custom Domain
 
-- **URL:** `https://ecoscan-api.vercel.app/scan-result/predict`
+- **URL:** `https://ecoscan-api.vercel.app/predict`
 - **Method:** PATCH
 
 This endpoint is used to predict the image from the ML model. The request should include an image url with the specified conditions below. Upon successful execution, the response will include user, token, and modelResponse json.
