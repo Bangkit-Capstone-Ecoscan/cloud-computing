@@ -1,4 +1,4 @@
-# Auth API Documentation
+# API For Front-End
 
 ## Endpoint Sign Up
 
@@ -409,7 +409,7 @@ You can choose between Bronze, Silver, and Gold for the package.
 }
 ```
 
-# For Backend
+# API For Back-End
 
 ## Endpoint Check Quota
 
