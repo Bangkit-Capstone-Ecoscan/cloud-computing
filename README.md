@@ -39,7 +39,7 @@ npm install
 node server
 ```
 
-# API For Front-End
+# Endpoint Documentation
 
 ## Endpoint Sign Up
 
